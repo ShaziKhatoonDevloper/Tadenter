@@ -13,7 +13,7 @@ const Comparison: React.FC = () => {
       <div className="overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
-            <tr className="border-b-2 border-slate-200">
+            <tr className="border-b-1 border-slate-200">
               <th className="p-6 text-left bg-white sticky left-0 z-10 w-64 min-w-[256px]">Feature</th>
               {ANTIVIRUS_PRODUCTS.map(product => (
                 <th key={product.id} className="p-6 text-center min-w-[200px]">
