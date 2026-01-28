@@ -32,7 +32,7 @@ const Comparison: React.FC = () => {
               ))}
             </tr>
             <tr>
-              <td className="p-6 font-semibold bg-white sticky left-0 z-10">Protection Score</td>
+              <td className="p-6 font-semibold bg-white sticky left-0 z-10">Protection Sscore</td>
               {ANTIVIRUS_PRODUCTS.map(p => (
                 <td key={p.id} className="p-6 text-center">
                   <span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-bold">
