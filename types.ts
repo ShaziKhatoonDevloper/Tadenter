@@ -2,40 +2,34 @@
 export interface AntivirusProduct {
   id: string;
   name: string;
-  slug: string;
   logo: string;
+  productImage: string;
   rating: number;
-  price: string;
-  priceDetails: string;
+  overallScore: number;
   pros: string[];
   cons: string[];
+  description: string;
+  pricing: string;
+  link: string;
   features: string[];
-  overview: string;
-  performanceScores: {
+  performance: {
     protection: number;
     performance: number;
     usability: number;
   };
-  verdict: string;
-  affiliateUrl: string;
-  category: ('Overall' | 'Free' | 'Windows' | 'Mac' | 'Business')[];
+  bestFor: string;
+  category: 'Premium' | 'Free' | 'Business' | 'Windows' | 'Mac';
 }
 
 export interface BlogPost {
   id: string;
-  slug: string;
   title: string;
   excerpt: string;
   content: string;
   date: string;
   author: string;
-  category: string;
   image: string;
+  category: string;
 }
 
-export interface SiteInfo {
-  companyName: string;
-  address: string;
-  email: string;
-  websiteUrl: string;
-}
+export type PolicyType = 'privacy' | 'terms' | 'affiliate' | 'cookies' | 'advertiser' | 'gdpr';

@@ -1,5 +1,8 @@
 {
-  "name": "TAD Antivirus Reviews",
-  "description": "A professional and comprehensive antivirus review platform providing expert analysis, comparisons, and security guides for home and business users.",
-  "requestFramePermissions": []
+  "name": "TADENTER Antivirus Reviews",
+  "description": "A professional antivirus review and security comparison platform with detailed product analysis, blog insights, and compliance-ready policies.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
 }
